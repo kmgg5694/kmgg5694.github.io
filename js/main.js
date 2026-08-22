@@ -29,6 +29,7 @@
   var targets = document.querySelectorAll(
     '.section-eyebrow, .section-title, .section-desc, .about-text, .about-card,' +
     '.service-card, .service-note, .method-item, .process-list li,' +
+    '.tool-card,' +
     '.faq-item, .contact-form, .contact-direct'
   );
   targets.forEach(function (el) { el.classList.add('reveal'); });
