@@ -1,0 +1,3242 @@
+[
+ {
+  "govcode": "a0001",
+  "reading": [
+   "관"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0002",
+  "reading": [
+   "상"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0050",
+  "reading": [
+   "희"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a006a",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0072",
+  "reading": [
+   "고"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a007b",
+  "reading": [
+   "청"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0087",
+  "reading": [
+   "청"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0090",
+  "reading": [
+   "강"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0106",
+  "reading": [
+   "정"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0107",
+  "reading": [
+   "기"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0108",
+  "reading": [
+   "녹,록"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0109",
+  "reading": [
+   "비"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a010a",
+  "reading": [
+   "사"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a010b",
+  "reading": [
+   "사"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a010c",
+  "reading": [
+   "양"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a010d",
+  "reading": [
+   "우"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a010e",
+  "reading": [
+   "우"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a010f",
+  "reading": [
+   "조"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0111",
+  "reading": [
+   "가"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0112",
+  "reading": [
+   "가"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0113",
+  "reading": [
+   "갈"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0114",
+  "reading": [
+   "강"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0115",
+  "reading": [
+   "개"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0116",
+  "reading": [
+   "개"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0117",
+  "reading": [
+   "견"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0118",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0119",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a011a",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a011b",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a011c",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a011d",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a011e",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a011f",
+  "reading": [
+   "고"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0120",
+  "reading": [
+   "고"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0121",
+  "reading": [
+   "고"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0122",
+  "reading": [
+   "고"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0123",
+  "reading": [
+   "과"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0124",
+  "reading": [
+   "곽"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0125",
+  "reading": [
+   "관"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0126",
+  "reading": [
+   "관"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0127",
+  "reading": [
+   "관"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0128",
+  "reading": [
+   "관"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0129",
+  "reading": [
+   "관"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a012a",
+  "reading": [
+   "교"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a012b",
+  "reading": [
+   "구"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a012c",
+  "reading": [
+   "구"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a012d",
+  "reading": [
+   "국"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a012e",
+  "reading": [
+   "궁"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a012f",
+  "reading": [
+   "권"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0130",
+  "reading": [
+   "권"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0131",
+  "reading": [
+   "궐"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0132",
+  "reading": [
+   "규"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0133",
+  "reading": [
+   "균"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0134",
+  "reading": [
+   "근"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0135",
+  "reading": [
+   "근"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0136",
+  "reading": [
+   "금"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0137",
+  "reading": [
+   "낙"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0138",
+  "reading": [
+   "다,차"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0139",
+  "reading": [
+   "담"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a013a",
+  "reading": [
+   "도"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a013b",
+  "reading": [
+   "동"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a013c",
+  "reading": [
+   "두"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a013d",
+  "reading": [
+   "둔"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a013e",
+  "reading": [
+   "등"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a013f",
+  "reading": [
+   "나,라"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0140",
+  "reading": [
+   "낙,락"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0141",
+  "reading": [
+   "난,란"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0142",
+  "reading": [
+   "남,람"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0143",
+  "reading": [
+   "내,래"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0144",
+  "reading": [
+   "려,여"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0145",
+  "reading": [
+   "련,연"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0146",
+  "reading": [
+   "노,로"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0147",
+  "reading": [
+   "녹,록"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0148",
+  "reading": [
+   "료,요"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0149",
+  "reading": [
+   "누,루"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a014a",
+  "reading": [
+   "능,릉"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a014b",
+  "reading": [
+   "리,이"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a014c",
+  "reading": [
+   "린,인"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a014d",
+  "reading": [
+   "린,인"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a014e",
+  "reading": [
+   "막"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a014f",
+  "reading": [
+   "막"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0150",
+  "reading": [
+   "막"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0151",
+  "reading": [
+   "만"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0152",
+  "reading": [
+   "만"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0153",
+  "reading": [
+   "말"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0154",
+  "reading": [
+   "말"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0155",
+  "reading": [
+   "망"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0156",
+  "reading": [
+   "망"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0157",
+  "reading": [
+   "매"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0158",
+  "reading": [
+   "맥"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0159",
+  "reading": [
+   "맹"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a015a",
+  "reading": [
+   "멸"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a015b",
+  "reading": [
+   "명"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a015c",
+  "reading": [
+   "명"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a015d",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a015e",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a015f",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0160",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0161",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0162",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0163",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0164",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0165",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0166",
+  "reading": [
+   "몽"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0167",
+  "reading": [
+   "몽"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0169",
+  "reading": [
+   "묘"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a016a",
+  "reading": [
+   "묘"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a016b",
+  "reading": [
+   "묘"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a016c",
+  "reading": [
+   "무"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a016d",
+  "reading": [
+   "무"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a016e",
+  "reading": [
+   "미"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a016f",
+  "reading": [
+   "박"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0170",
+  "reading": [
+   "방"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0171",
+  "reading": [
+   "방"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0172",
+  "reading": [
+   "번"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0173",
+  "reading": [
+   "번"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0174",
+  "reading": [
+   "범"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0175",
+  "reading": [
+   "벽"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0176",
+  "reading": [
+   "보"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0177",
+  "reading": [
+   "복"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0178",
+  "reading": [
+   "복"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0179",
+  "reading": [
+   "봉"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a017a",
+  "reading": [
+   "부"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a017b",
+  "reading": [
+   "부"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a017c",
+  "reading": [
+   "분"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a017d",
+  "reading": [
+   "사"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a017e",
+  "reading": [
+   "사"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a017f",
+  "reading": [
+   "산"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0180",
+  "reading": [
+   "살"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0181",
+  "reading": [
+   "삼"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0182",
+  "reading": [
+   "삼"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0183",
+  "reading": [
+   "서"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0184",
+  "reading": [
+   "석"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0185",
+  "reading": [
+   "선"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0186",
+  "reading": [
+   "설"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0187",
+  "reading": [
+   "엽,섭"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0188",
+  "reading": [
+   "소"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0189",
+  "reading": [
+   "소"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a018a",
+  "reading": [
+   "소"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a018b",
+  "reading": [
+   "손"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a018c",
+  "reading": [
+   "수"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a018d",
+  "reading": [
+   "수"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a018e",
+  "reading": [
+   "수"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a018f",
+  "reading": [
+   "수"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0190",
+  "reading": [
+   "숙"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0191",
+  "reading": [
+   "순"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0192",
+  "reading": [
+   "순"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0193",
+  "reading": [
+   "순"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0194",
+  "reading": [
+   "시"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0195",
+  "reading": [
+   "시"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0196",
+  "reading": [
+   "신"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0197",
+  "reading": [
+   "신"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0198",
+  "reading": [
+   "신"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0199",
+  "reading": [
+   "심"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a019a",
+  "reading": [
+   "아"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a019b",
+  "reading": [
+   "아"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a019c",
+  "reading": [
+   "암"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a019d",
+  "reading": [
+   "애,예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a019e",
+  "reading": [
+   "야"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a019f",
+  "reading": [
+   "야,약"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a0",
+  "reading": [
+   "약"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a1",
+  "reading": [
+   "약"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a2",
+  "reading": [
+   "약"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a3",
+  "reading": [
+   "얼"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a4",
+  "reading": [
+   "여"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a5",
+  "reading": [
+   "염"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a6",
+  "reading": [
+   "엽"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a7",
+  "reading": [
+   "엽"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a8",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01a9",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01aa",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ab",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ac",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ad",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ae",
+  "reading": [
+   "예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01af",
+  "reading": [
+   "예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b0",
+  "reading": [
+   "예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b1",
+  "reading": [
+   "온"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b2",
+  "reading": [
+   "완"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b3",
+  "reading": [
+   "용"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b4",
+  "reading": [
+   "용"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b5",
+  "reading": [
+   "우,후"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b6",
+  "reading": [
+   "우"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b7",
+  "reading": [
+   "운"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b8",
+  "reading": [
+   "운"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01b9",
+  "reading": [
+   "울"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ba",
+  "reading": [
+   "원"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01bb",
+  "reading": [
+   "위"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01bc",
+  "reading": [
+   "위"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01bd",
+  "reading": [
+   "위"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01be",
+  "reading": [
+   "유"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01bf",
+  "reading": [
+   "음"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c0",
+  "reading": [
+   "의"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c1",
+  "reading": [
+   "이"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c2",
+  "reading": [
+   "이"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c3",
+  "reading": [
+   "인"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c4",
+  "reading": [
+   "임"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c5",
+  "reading": [
+   "잉"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c6",
+  "reading": [
+   "자"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c7",
+  "reading": [
+   "자"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c8",
+  "reading": [
+   "자"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01c9",
+  "reading": [
+   "작"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ca",
+  "reading": [
+   "장"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01cb",
+  "reading": [
+   "장"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01cc",
+  "reading": [
+   "장"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01cd",
+  "reading": [
+   "장"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ce",
+  "reading": [
+   "장"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01cf",
+  "reading": [
+   "장"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d0",
+  "reading": [
+   "장"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d1",
+  "reading": [
+   "저"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d2",
+  "reading": [
+   "저"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d3",
+  "reading": [
+   "저"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d4",
+  "reading": [
+   "저"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d5",
+  "reading": [
+   "적"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d6",
+  "reading": [
+   "전"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d7",
+  "reading": [
+   "제"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d8",
+  "reading": [
+   "조"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01d9",
+  "reading": [
+   "줄"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01da",
+  "reading": [
+   "즙"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01db",
+  "reading": [
+   "증"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01dc",
+  "reading": [
+   "지"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01dd",
+  "reading": [
+   "지"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01de",
+  "reading": [
+   "진"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01df",
+  "reading": [
+   "망"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e0",
+  "reading": [
+   "창"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e1",
+  "reading": [
+   "창"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e2",
+  "reading": [
+   "채"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e3",
+  "reading": [
+   "채"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e4",
+  "reading": [
+   "천"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e5",
+  "reading": [
+   "청"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e6",
+  "reading": [
+   "초"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e7",
+  "reading": [
+   "초"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e8",
+  "reading": [
+   "초"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01e9",
+  "reading": [
+   "총"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ea",
+  "reading": [
+   "추"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01eb",
+  "reading": [
+   "축"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ec",
+  "reading": [
+   "췌"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ed",
+  "reading": [
+   "췌"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ee",
+  "reading": [
+   "탑"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ef",
+  "reading": [
+   "탕"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f0",
+  "reading": [
+   "태"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f1",
+  "reading": [
+   "파"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f2",
+  "reading": [
+   "평"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f3",
+  "reading": [
+   "폐"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f4",
+  "reading": [
+   "포"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f5",
+  "reading": [
+   "포"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f6",
+  "reading": [
+   "포"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f7",
+  "reading": [
+   "필"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f8",
+  "reading": [
+   "하"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01f9",
+  "reading": [
+   "행"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01fa",
+  "reading": [
+   "협"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01fb",
+  "reading": [
+   "형"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01fc",
+  "reading": [
+   "혜"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01fd",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01fe",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a01ff",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0200",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0201",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0202",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0203",
+  "reading": [
+   "화"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0204",
+  "reading": [
+   "화"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0205",
+  "reading": [
+   "화"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0206",
+  "reading": [
+   "화"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0207",
+  "reading": [
+   "화"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0208",
+  "reading": [
+   "확"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0209",
+  "reading": [
+   "환"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a020a",
+  "reading": [
+   "환"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a020b",
+  "reading": [
+   "황"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a020c",
+  "reading": [
+   "황"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a020d",
+  "reading": [
+   "회"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a020e",
+  "reading": [
+   "획"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a020f",
+  "reading": [
+   "훈"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0210",
+  "reading": [
+   "훙"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0211",
+  "reading": [
+   "훤"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0212",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0213",
+  "reading": [
+   "막"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0214",
+  "reading": [
+   "비"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0215",
+  "reading": [
+   "거"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0216",
+  "reading": [
+   "정"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0219",
+  "reading": [
+   "막"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a021a",
+  "reading": [
+   "멱"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a021b",
+  "reading": [
+   "지"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a021d",
+  "reading": [
+   "서"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a021e",
+  "reading": [
+   "설"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a021f",
+  "reading": [
+   "은"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0220",
+  "reading": [
+   "인"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0221",
+  "reading": [
+   "준"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0222",
+  "reading": [
+   "진"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0223",
+  "reading": [
+   "천"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0226",
+  "reading": [
+   "성"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0227",
+  "reading": [
+   "미"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0228",
+  "reading": [
+   "임"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a022d",
+  "reading": [
+   "집"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0236",
+  "reading": [
+   "애,예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0239",
+  "reading": [
+   "성"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a023a",
+  "reading": [
+   "주"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a023f",
+  "reading": [
+   "산"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0242",
+  "reading": [
+   "자"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0243",
+  "reading": [
+   "매"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0244",
+  "reading": [
+   "별"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0245",
+  "reading": [
+   "예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0246",
+  "reading": [
+   "예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0247",
+  "reading": [
+   "윤"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0248",
+  "reading": [
+   "연"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a024b",
+  "reading": [
+   "성"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a024c",
+  "reading": [
+   "성"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a024d",
+  "reading": [
+   "성"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a024e",
+  "reading": [
+   "능,릉"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0250",
+  "reading": [
+   "소"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0251",
+  "reading": [
+   "강"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0252",
+  "reading": [
+   "귀,균,구"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0253",
+  "reading": [
+   "망"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0254",
+  "reading": [
+   "병"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0255",
+  "reading": [
+   "인"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0256",
+  "reading": [
+   "훼"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0257",
+  "reading": [
+   "유"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0258",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0259",
+  "reading": [
+   "효"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a025a",
+  "reading": [
+   "특"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a025b",
+  "reading": [
+   "망"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a025c",
+  "reading": [
+   "얼"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a025d",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a025e",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a025f",
+  "reading": [
+   "은"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0260",
+  "reading": [
+   "은"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0261",
+  "reading": [
+   "예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0262",
+  "reading": [
+   "다"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0263",
+  "reading": [
+   "함"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0264",
+  "reading": [
+   "화"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0265",
+  "reading": [
+   "백"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0266",
+  "reading": [
+   "라"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0267",
+  "reading": [
+   "남,람"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0268",
+  "reading": [
+   "애,예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0269",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a026a",
+  "reading": [
+   "관"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a026b",
+  "reading": [
+   "울"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a026c",
+  "reading": [
+   "훈"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a026d",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a026e",
+  "reading": [
+   "묘"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a026f",
+  "reading": [
+   "묘"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0270",
+  "reading": [
+   "다"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0271",
+  "reading": [
+   "노,로"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0272",
+  "reading": [
+   "저"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0273",
+  "reading": [
+   "기"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0274",
+  "reading": [
+   "나"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0275",
+  "reading": [
+   "후"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0283",
+  "reading": [
+   "단"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0284",
+  "reading": [
+   "도"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a028a",
+  "reading": [
+   "변"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a028d",
+  "reading": [
+   "원"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a028e",
+  "reading": [
+   "겸"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0290",
+  "reading": [
+   "해"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0291",
+  "reading": [
+   "례,예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0292",
+  "reading": [
+   "검"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0293",
+  "reading": [
+   "저"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0294",
+  "reading": [
+   "경"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0295",
+  "reading": [
+   "영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a0296",
+  "reading": [
+   "모"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a029b",
+  "reading": [
+   "동"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02b8",
+  "reading": [
+   "규"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02bd",
+  "reading": [
+   "도"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02bf",
+  "reading": [
+   "송"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02c0",
+  "reading": [
+   "리,이"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02c5",
+  "reading": [
+   "서"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02cf",
+  "reading": [
+   "려,여"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02d1",
+  "reading": [
+   "노,로"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02d3",
+  "reading": [
+   "유"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02d4",
+  "reading": [
+   "온"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02d5",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02d6",
+  "reading": [
+   "훈"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02d7",
+  "reading": [
+   "늠,름"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02d8",
+  "reading": [
+   "미"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02de",
+  "reading": [
+   "렴"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02df",
+  "reading": [
+   "면"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02e0",
+  "reading": [
+   "섬"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02e1",
+  "reading": [
+   "유"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "a02e3",
+  "reading": [
+   "유"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f04c4",
+  "reading": [
+   "령,영"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f0767",
+  "reading": [
+   "복"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f07e1",
+  "reading": [
+   "사"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f08ae",
+  "reading": [
+   "선"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f090a",
+  "reading": [
+   "성"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f0a8e",
+  "reading": [
+   "시"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f0a90",
+  "reading": [
+   "시,제,지"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f0aa6",
+  "reading": [
+   "신"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f0f74",
+  "reading": [
+   "은"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f10e3",
+  "reading": [
+   "정"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f12fe",
+  "reading": [
+   "진"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f153f",
+  "reading": [
+   "항"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f1543",
+  "reading": [
+   "해"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f17b8",
+  "reading": [
+   "훈"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f1cd6",
+  "reading": [
+   "면"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f298a",
+  "reading": [
+   "진"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f2b67",
+  "reading": [
+   "해"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f3450",
+  "reading": [
+   "민"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f346d",
+  "reading": [
+   "조"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f346e",
+  "reading": [
+   "호"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f346f",
+  "reading": [
+   "축"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f3474",
+  "reading": [
+   "기"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f3477",
+  "reading": [
+   "화"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f347d",
+  "reading": [
+   "희"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f3480",
+  "reading": [
+   "도"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f34b4",
+  "reading": [
+   "례,예"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f34b5",
+  "reading": [
+   "기"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ },
+ {
+  "govcode": "f34b6",
+  "reading": [
+   "지"
+  ],
+  "strokes": null,
+  "note": "유니코드 미등록"
+ }
+]
