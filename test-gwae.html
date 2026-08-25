@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4대 괘 연산 테스트 | 김만기 이름연구소</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Sans KR', sans-serif; padding: 40px 20px; background: #faf7f1; color: #1a1a18; line-height: 1.7; }
+.container { max-width: 800px; margin: 0 auto; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+h1 { font-size: 28px; margin-bottom: 10px; color: #8c2f24; }
+.subtitle { color: #6b675f; margin-bottom: 30px; font-size: 14px; }
+.form-group { margin-bottom: 24px; }
+label { display: block; margin-bottom: 8px; font-weight: 500; color: #3d3b36; }
+input { width: 100%; padding: 12px 16px; border: 1px solid #ddd5c7; border-radius: 4px; font-size: 16px; font-family: inherit; }
+input:focus { outline: none; border-color: #8c2f24; box-shadow: 0 0 0 3px rgba(140,47,36,0.1); }
+button { width: 100%; padding: 14px 20px; background: #8c2f24; color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 500; cursor: pointer; margin-top: 10px; }
+button:hover { background: #a94436; }
+button:active { transform: translateY(1px); }
+.result { margin-top: 40px; padding: 30px; background: #f2ede3; border-radius: 4px; border-left: 4px solid #a68a4e; display: none; }
+.result.show { display: block; }
+.result h2 { font-size: 20px; margin-bottom: 20px; color: #1a1a18; }
+.result-section { margin-bottom: 24px; }
+.result-section h3 { font-size: 16px; margin-bottom: 12px; color: #3d3b36; border-bottom: 1px solid #ddd5c7; padding-bottom: 6px; }
+.gwae-item { padding: 12px; background: white; margin-bottom: 8px; border-radius: 4px; }
+.gwae-name { font-weight: 500; color: #8c2f24; margin-bottom: 4px; }
+.gwae-symbol { font-size: 24px; margin: 0 10px; }
+.gwae-desc { color: #6b675f; font-size: 14px; }
+.error { color: #c92a2a; background: #fff5f5; padding: 16px; border-radius: 4px; border-left: 4px solid #c92a2a; margin-top: 20px; }
+.input-detail { display: flex; gap: 10px; margin-top: 8px; font-size: 13px; color: #6b675f; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>보흘 주역 이름풀이 4대 괘 연산</h1>
+  <p class="subtitle">원·형·이·정 격국을 팔괘와 육십사괘로 계산합니다</p>
+
+  <form id="gwaeForm">
+    <div class="form-group">
+      <label for="surname">성 (한자 1~2자)</label>
+      <input type="text" id="surname" placeholder="예: 金" maxlength="2" required>
+    </div>
+
+    <div class="form-group">
+      <label for="name1">이름 첫째 자 (한자)</label>
+      <input type="text" id="name1" placeholder="예: 萬" maxlength="1" required>
+    </div>
+
+    <div class="form-group">
+      <label for="name2">이름 둘째 자 (한자, 외자는 비워둠)</label>
+      <input type="text" id="name2" placeholder="예: 起" maxlength="1">
+    </div>
+
+    <button type="submit">4대 괘 계산하기</button>
+  </form>
+
+  <div id="result" class="result"></div>
+</div>
+
+<script src="js/gwae.js"></script>
+<script>
+(function() {
+  let skeletonData = null;
+  fetch('data/skeleton.json')
+    .then(r => r.json())
+    .then(data => { skeletonData = data; console.log('skeleton loaded:',data.length); })
+    .catch(err => { console.error(err); alert('skeleton.json 로드 실패'); });
+
+  document.getElementById('gwaeForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const resultDiv = document.getElementById('result');
+
+    if (!skeletonData) {
+      resultDiv.innerHTML = '<p class="error">한자 데이터 로드 중입니다. 잠시 후 다시 시도하세요.</p>';
+      resultDiv.classList.add('show');
+      return;
+    }
+
+    const surname = document.getElementById('surname').value.trim();
+    const name1 = document.getElementById('name1').value.trim();
+    const name2 = document.getElementById('name2').value.trim() || null;
+
+    if (!surname || !name1) {
+      resultDiv.innerHTML = '<p class="error">성과 이름 첫째 자는 필수입니다.</p>';
+      resultDiv.classList.add('show');
+      return;
+    }
+
+    const result = BoheulGwae.calculateBoheulGwae(surname, name1, name2, skeletonData);
+
+    if (result.error) {
+      resultDiv.innerHTML = '<p class="error">' + result.error + '</p>';
+      resultDiv.classList.add('show');
+      return;
+    }
+
+    let html = '<h2>🔮 사대 괘 연산 결과</h2>';
+    html += '<div class="result-section"><h3>입력 정보</h3><div class="input-detail">';
+    html += '<span><strong>성:</strong> '+result.input.surname+' ('+result.input.A+'획)</span>';
+    html += '<span><strong>이름1:</strong> '+result.input.name1+' ('+result.input.B+'획)</span>';
+    if (result.input.name2) html += '<span><strong>이름2:</strong> '+result.input.name2+' ('+result.input.C+'획)</span>';
+    html += '</div></div>';
+
+    html += '<div class="result-section"><h3>4격 합산</h3><div class="input-detail">';
+    html += '<span><strong>원격:</strong> '+result.sums.won+'획 (B+C)</span>';
+    html += '<span><strong>형격:</strong> '+result.sums.hyeong+'획 (A+B)</span>';
+    html += '<span><strong>이격:</strong> '+result.sums.i+'획 (A+C)</span>';
+    html += '<span><strong>정격:</strong> '+result.sums.jeong+'획 (A+B+C)</span>';
+    html += '</div></div>';
+
+    html += '<div class="result-section"><h3>상괘 (형격 기준)</h3><div class="gwae-item">';
+    html += '<div class="gwae-name">'+result.sangGwae.hanja+' ('+result.sangGwae.name+') <span class="gwae-symbol">'+result.sangGwae.symbol+'</span></div>';
+    html += '<div class="gwae-desc">효: '+result.sangGwae.lines.join('-')+'</div>';
+    html += '</div></div>';
+
+    html += '<div class="result-section"><h3>사대 괘 (64대성괘)</h3>';
+    const glist = [
+      { label: '원격 (初年運)', key: '원격' },
+      { label: '형격 (壯年運)', key: '형격' },
+      { label: '이격 (中年運)', key: '이격' },
+      { label: '정격 (總運)', key: '정격' }
+    ];
+    glist.forEach(g => {
+      const gd = result.gwae[g.key];
+      html += '<div class="gwae-item">';
+      html += '<div class="gwae-name">'+g.label+' <span class="gwae-symbol">'+gd.sogwae.symbol+'</span></div>';
+      html += '<div class="gwae-desc">'+gd.sogwae.hanja+' (idx '+gd.idx+') → '+gd.daegwae+'</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+
+    resultDiv.innerHTML = html;
+    resultDiv.classList.add('show');
+    resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+})();
+</script>
+</body>
+</html>
