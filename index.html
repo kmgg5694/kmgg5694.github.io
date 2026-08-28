@@ -124,6 +124,178 @@
       border-radius: 10px;
       padding: 11px 14px;
     }
+    .dl-sec { margin-top: 28px; }
+    .dl-sec h3 {
+      font-size: 1.05rem;
+      color: var(--gold);
+      margin: 0 0 8px;
+      text-align: center;
+    }
+    .dl-lead {
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.82rem;
+      color: var(--muted);
+      text-align: center;
+      margin: 0 0 12px;
+    }
+    .dl-switch {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .dl-switch button {
+      flex: 1;
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 700;
+      font-size: 0.78rem;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 8px 6px;
+      cursor: pointer;
+    }
+    .dl-switch button.on {
+      background: var(--gold-btn);
+      border-color: var(--gold-btn);
+      color: #fff;
+    }
+    .dl-form, .dl-panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px 16px;
+      box-shadow: 0 2px 10px oklch(0 0 0 / 0.08);
+    }
+    .dl-panel[hidden] { display: none; }
+    .dl-warn {
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.8rem;
+      background: oklch(0.95 0.04 85);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin: 0 0 12px;
+      color: var(--gold-deep);
+    }
+    .ios-steps { display: flex; flex-direction: column; gap: 10px; }
+    .ios-step {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background: #fff;
+      border: 1px solid oklch(0.90 0.012 75);
+      border-radius: 12px;
+      padding: 10px;
+    }
+    .ios-num {
+      flex: 0 0 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--gold-deep);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+    .ios-pic { flex: 0 0 52px; height: 44px; }
+    .ios-step p {
+      margin: 0;
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.82rem;
+      color: var(--fg);
+      line-height: 1.45;
+    }
+    .dl-apps { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+    .dl-apps a, .dl-apps button.save {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 700;
+      font-size: 0.88rem;
+      color: #fff;
+      background: var(--gold-btn);
+      border: 0;
+      border-radius: 10px;
+      padding: 11px 14px;
+      cursor: pointer;
+    }
+    .dl-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 0;
+      border-bottom: 1px solid oklch(0.90 0.012 75);
+    }
+    .dl-row:last-of-type { border-bottom: 0; }
+    .dl-row label {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      min-width: 0;
+    }
+    .dl-row input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--gold-btn);
+      flex: 0 0 18px;
+    }
+    .dl-row .open,
+    .dl-row .save {
+      flex: 0 0 auto;
+      text-decoration: none;
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 700;
+      font-size: 0.78rem;
+      border-radius: 8px;
+      padding: 8px 10px;
+      cursor: pointer;
+      border: 1px solid var(--gold-btn);
+    }
+    .dl-row .open {
+      color: var(--gold-deep);
+      background: #fff;
+    }
+    .dl-row .save {
+      color: #fff;
+      background: var(--gold-btn);
+    }
+    .dl-all {
+      display: block;
+      width: 100%;
+      margin-top: 4px;
+      border: 0;
+      cursor: pointer;
+      font-family: "Noto Serif KR", serif;
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: #fff;
+      background: var(--gold-deep);
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+    .dl-all:disabled { opacity: 0.55; cursor: wait; }
+    .dl-status {
+      min-height: 1.35em;
+      margin: 10px 0 0;
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    .dl-help {
+      margin: 12px 0 0;
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
     .faq { margin-top: 32px; }
     .faq h3 {
       font-size: 1.05rem;
@@ -242,6 +414,83 @@
       </article>
     </section>
 
+    <section id="download" class="dl-sec" aria-label="앱 설치와 저장">
+      <h3>앱 설치 · 저장</h3>
+      <p class="dl-lead" id="dlDetect">기기를 확인하는 중입니다.</p>
+      <div class="dl-switch" role="tablist" aria-label="기기 선택">
+        <button type="button" data-panel="ios" id="tabIos">아이폰</button>
+        <button type="button" data-panel="android" id="tabAndroid">안드로이드</button>
+        <button type="button" data-panel="desktop" id="tabDesktop">컴퓨터</button>
+      </div>
+
+      <div id="panel-ios" class="dl-panel" hidden>
+        <p class="dl-warn" id="iosInApp" hidden>인스타그램·크롬 앱 안에서는 홈 화면에 넣을 수 없습니다. Safari로 이 주소를 열어 주세요.</p>
+        <div class="ios-steps" aria-label="아이폰 홈 화면 추가 순서">
+          <div class="ios-step">
+            <span class="ios-num">1</span>
+            <svg class="ios-pic" viewBox="0 0 52 44" aria-hidden="true"><rect x="1" y="1" width="50" height="42" rx="8" fill="#f4f4f6" stroke="#c5c5cc"/><rect x="8" y="32" width="36" height="6" rx="3" fill="#e8e8ee"/><g transform="translate(20,6)" fill="none" stroke="#0a84ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14"/><path d="M2 6l4-4 4 4"/><path d="M1 16v6a2 2 0 002 2h6a2 2 0 002-2v-6"/></g></svg>
+            <p>Safari 아래 <strong>공유</strong> 버튼<br />(□ 위쪽 화살표)을 누르세요</p>
+          </div>
+          <div class="ios-step">
+            <span class="ios-num">2</span>
+            <svg class="ios-pic" viewBox="0 0 52 44" aria-hidden="true"><rect x="1" y="1" width="50" height="42" rx="8" fill="#fff" stroke="#c5c5cc"/><rect x="6" y="18" width="40" height="10" rx="5" fill="#0a84ff"/><text x="26" y="26" text-anchor="middle" font-size="7" font-family="sans-serif" fill="#fff">+</text></svg>
+            <p>목록을 올려<br /><strong>홈 화면에 추가</strong>를 누르세요</p>
+          </div>
+          <div class="ios-step">
+            <span class="ios-num">3</span>
+            <svg class="ios-pic" viewBox="0 0 52 44" aria-hidden="true"><rect x="1" y="1" width="50" height="42" rx="8" fill="#fff" stroke="#c5c5cc"/><text x="40" y="14" text-anchor="end" font-size="8" font-family="sans-serif" fill="#0a84ff" font-weight="700">추가</text><rect x="14" y="18" width="24" height="16" rx="4" fill="#eee"/><path d="M20 26h12M26 20v12" stroke="#8a5a12" stroke-width="2" stroke-linecap="round"/></svg>
+            <p>오른쪽 위 <strong>추가</strong>를 누르면<br />홈 화면에 아이콘이 생깁니다</p>
+          </div>
+        </div>
+        <p class="dl-help">이 목록을 홈 화면에 두시려면 지금 이 화면에서 위 순서대로 하시면 됩니다. 앱을 따로 아이콘으로 만들려면 아래에서 연 뒤 같은 방법으로 추가하세요.</p>
+        <div class="dl-apps">
+          <a href="https://kmgg5694.github.io/nameanalyz/?install=1">한글·한문 이름풀이 열기</a>
+          <a href="https://kmgg5694.github.io/nameanalyz/english/?install=1">영어 이름풀이 열기</a>
+          <a href="https://kmgg5694.github.io/lucky-8/?install=1">행운역일진 열기</a>
+          <a href="https://kmgg5694.github.io/app_iljin/?install=1">자미역일진 열기</a>
+        </div>
+      </div>
+
+      <div id="panel-android" class="dl-panel" hidden>
+        <p class="dl-warn" id="androidInApp" hidden>인스타그램 안에서는 설치가 안 됩니다. Chrome으로 이 주소를 열어 주세요.</p>
+        <p class="dl-help" style="margin-top:0">설치를 누르면 해당 앱으로 이동합니다. 이어지는 <strong>홈 화면에 설치</strong> 버튼을 누르면 아이콘이 붙습니다. Chrome 또는 삼성 인터넷을 이용해 주세요.</p>
+        <div class="dl-apps">
+          <a href="https://kmgg5694.github.io/nameanalyz/?install=1">한글·한문 이름풀이 설치</a>
+          <a href="https://kmgg5694.github.io/nameanalyz/english/?install=1">영어 이름풀이 설치</a>
+          <a href="https://kmgg5694.github.io/lucky-8/?install=1">행운역일진 설치</a>
+          <a href="https://kmgg5694.github.io/app_iljin/?install=1">자미역일진 설치</a>
+        </div>
+      </div>
+
+      <div id="panel-desktop" class="dl-panel" hidden>
+        <form id="dlForm" action="#" method="get">
+          <div class="dl-row">
+            <label><input type="checkbox" name="app" value="ko-name" checked />한글·한문 이름풀이</label>
+            <a class="open" href="https://kmgg5694.github.io/nameanalyz/" target="_blank" rel="noopener">열기</a>
+            <button type="button" class="save" data-app="ko-name">저장</button>
+          </div>
+          <div class="dl-row">
+            <label><input type="checkbox" name="app" value="en-name" checked />영어 이름풀이</label>
+            <a class="open" href="https://kmgg5694.github.io/nameanalyz/english/" target="_blank" rel="noopener">열기</a>
+            <button type="button" class="save" data-app="en-name">저장</button>
+          </div>
+          <div class="dl-row">
+            <label><input type="checkbox" name="app" value="lucky" checked />행운역일진</label>
+            <a class="open" href="https://kmgg5694.github.io/lucky-8/" target="_blank" rel="noopener">열기</a>
+            <button type="button" class="save" data-app="lucky">저장</button>
+          </div>
+          <div class="dl-row">
+            <label><input type="checkbox" name="app" value="zami" checked />자미역일진</label>
+            <a class="open" href="https://kmgg5694.github.io/app_iljin/" target="_blank" rel="noopener">열기</a>
+            <button type="button" class="save" data-app="zami">저장</button>
+          </div>
+          <button type="submit" class="dl-all" id="dlAll">선택한 앱 저장</button>
+          <p class="dl-status" id="dlStatus" aria-live="polite"></p>
+          <p class="dl-help">컴퓨터는 HTML 파일로 내려받습니다. Chrome이면 주소창 오른쪽 설치 아이콘으로 붙일 수도 있습니다.</p>
+        </form>
+      </div>
+    </section>
+
     <section class="faq">
       <h3>자주 묻는 질문</h3>
 
@@ -263,6 +512,11 @@
       <details>
         <summary>한자 획수는 어떤 기준(원획수)으로 계산하나요?</summary>
         <div class="answer">부수와 나머지를 합친 원획수를 씁니다. 이름풀이 한자표의 획수는 10,622자 사전의 원획수이며, 이 숫자로 81수리와 64괘를 계산합니다.</div>
+      </details>
+
+      <details>
+        <summary>컴퓨터나 휴대폰에 앱을 저장하려면?</summary>
+        <div class="answer">아이폰은 Safari에서 공유 → 홈 화면에 추가, 안드로이드는 Chrome에서 설치 버튼을 누르면 됩니다. 위 폼이 기기를 알아채고 안내를 바꿉니다. 컴퓨터는 HTML 파일로 저장할 수 있습니다.</div>
       </details>
 
       <details>
@@ -288,5 +542,129 @@
       <div class="op">운영: 풍백테크</div>
     </footer>
   </div>
+  <script>
+    (function () {
+      var ua = navigator.userAgent || "";
+      var iOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      var android = /Android/i.test(ua);
+      var inApp = /Instagram|FBAN|FBAV|KAKAOTALK|Line\/|CriOS|FxiOS|EdgiOS/i.test(ua);
+      var kind = iOS ? "ios" : android ? "android" : "desktop";
+      var detect = document.getElementById("dlDetect");
+      var labels = {
+        ios: "아이폰으로 보고 계십니다. 홈 화면 추가 순서입니다.",
+        android: "안드로이드로 보고 계십니다. 설치 버튼으로 홈 화면에 넣을 수 있습니다.",
+        desktop: "컴퓨터로 보고 계십니다. HTML 파일로 저장할 수 있습니다."
+      };
+
+      function showPanel(name) {
+        kind = name;
+        ["ios", "android", "desktop"].forEach(function (id) {
+          document.getElementById("panel-" + id).hidden = id !== name;
+        });
+        document.querySelectorAll(".dl-switch button").forEach(function (btn) {
+          btn.classList.toggle("on", btn.getAttribute("data-panel") === name);
+        });
+        detect.textContent = labels[name];
+      }
+
+      showPanel(kind);
+      if (iOS && inApp) document.getElementById("iosInApp").hidden = false;
+      if (android && /Instagram|FBAN|FBAV|KAKAOTALK|Line\//i.test(ua)) {
+        document.getElementById("androidInApp").hidden = false;
+      }
+      document.querySelectorAll(".dl-switch button").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          showPanel(btn.getAttribute("data-panel"));
+        });
+      });
+
+      var APPS = {
+        "ko-name": { title: "한글한문이름풀이", filename: "한글한문이름풀이.html", url: "https://kmgg5694.github.io/nameanalyz/" },
+        "en-name": { title: "영어이름풀이", filename: "영어이름풀이.html", url: "https://kmgg5694.github.io/nameanalyz/english/" },
+        lucky: { title: "행운역일진", filename: "행운역일진.html", url: "https://kmgg5694.github.io/lucky-8/" },
+        zami: { title: "자미역일진", filename: "자미역일진.html", url: "https://kmgg5694.github.io/app_iljin/" }
+      };
+      var form = document.getElementById("dlForm");
+      var statusEl = document.getElementById("dlStatus");
+      var allBtn = document.getElementById("dlAll");
+
+      function setStatus(msg) {
+        statusEl.textContent = msg || "";
+      }
+
+      function prepareHtml(html, pageUrl) {
+        if (html.indexOf("<base ") === -1) {
+          html = html.replace(/<head([^>]*)>/i, '<head$1>\n<base href="' + pageUrl + '">');
+        }
+        html = html.replace(/(["'`])\/nameanalyz\//g, "$1https://kmgg5694.github.io/nameanalyz/");
+        html = html.replace(/(["'`])\/lucky-8\//g, "$1https://kmgg5694.github.io/lucky-8/");
+        html = html.replace(/(["'`])\/app_iljin\//g, "$1https://kmgg5694.github.io/app_iljin/");
+        return html;
+      }
+
+      function triggerDownload(file) {
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(file);
+        a.download = file.name;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 5000);
+      }
+
+      async function saveOne(app) {
+        setStatus(app.title + " 가져오는 중…");
+        var res = await fetch(app.url, { credentials: "omit" });
+        if (!res.ok) throw new Error("불러오지 못했습니다");
+        var html = prepareHtml(await res.text(), app.url);
+        var file = new File([html], app.filename, { type: "text/html;charset=utf-8" });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          try {
+            await navigator.share({ files: [file], title: app.title });
+            setStatus(app.title + " 공유·저장 창을 열었습니다.");
+            return;
+          } catch (err) {
+            if (err && err.name === "AbortError") {
+              setStatus("저장을 취소했습니다.");
+              return;
+            }
+          }
+        }
+        triggerDownload(file);
+        setStatus(app.title + " 파일을 저장했습니다.");
+      }
+
+      form.querySelectorAll(".save").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var app = APPS[btn.getAttribute("data-app")];
+          saveOne(app).catch(function () {
+            setStatus("저장에 실패했습니다. 잠시 후 다시 눌러 주세요.");
+          });
+        });
+      });
+
+      form.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var picked = Array.prototype.map.call(form.querySelectorAll('input[name="app"]:checked'), function (el) {
+          return APPS[el.value];
+        }).filter(Boolean);
+        if (!picked.length) {
+          setStatus("저장할 앱을 하나 이상 선택해 주세요.");
+          return;
+        }
+        allBtn.disabled = true;
+        (async function () {
+          for (var i = 0; i < picked.length; i++) {
+            await saveOne(picked[i]);
+            if (i < picked.length - 1) await new Promise(function (ok) { setTimeout(ok, 700); });
+          }
+        })().catch(function () {
+          setStatus("저장에 실패했습니다. 잠시 후 다시 눌러 주세요.");
+        }).then(function () {
+          allBtn.disabled = false;
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
