@@ -356,10 +356,41 @@
     }
     footer strong { color: var(--gold); font-weight: 600; }
     .op { margin-top: 8px; font-size: 0.68rem; opacity: 0.85; }
+    .lang-bar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .lang-bar a {
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: var(--card);
+    }
+    .lang-bar a.active {
+      color: #fff;
+      background: var(--gold-deep);
+      border-color: var(--gold-deep);
+    }
+    .lang-bar a.en-go {
+      color: #fff;
+      background: #111;
+      border-color: #111;
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
+    <div class="lang-bar">
+      <a class="active" href="./">한국어</a>
+      <a class="en-go" href="./en/">English</a>
+    </div>
     <header>
       <div class="taiji" aria-hidden="true">☯</div>
       <h1>김만기 주역 성명학 이름연구소</h1>
