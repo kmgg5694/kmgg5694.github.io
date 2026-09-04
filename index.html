@@ -358,19 +358,20 @@
     .op { margin-top: 8px; font-size: 0.68rem; opacity: 0.85; }
     .lang-bar {
       display: flex;
+      flex-wrap: wrap;
       justify-content: flex-end;
-      gap: 8px;
+      gap: 6px;
       margin-bottom: 14px;
     }
     .lang-bar a {
       font-family: "Noto Sans KR", sans-serif;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 700;
       text-decoration: none;
       color: var(--muted);
       border: 1px solid var(--border);
       border-radius: 999px;
-      padding: 6px 12px;
+      padding: 6px 10px;
       background: var(--card);
     }
     .lang-bar a.active {
@@ -388,8 +389,12 @@
 <body>
   <div class="wrap">
     <div class="lang-bar">
-      <a class="active" href="./">🇰🇷 한국어</a>
-      <a class="en-go" href="./en/">🇺🇸 English</a>
+      <a class="active" href="./">🇰🇷 전체</a>
+      <a href="./ko/">🇰🇷 일진</a>
+      <a class="en-go" href="./en/">🇺🇸 EN</a>
+      <a href="./ja/">🇯🇵 日</a>
+      <a href="./hi/">🇮🇳 हिँ</a>
+      <a href="./es/">🇪🇸 ES</a>
     </div>
     <header>
       <div class="taiji" aria-hidden="true">☯</div>
