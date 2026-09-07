@@ -3,104 +3,180 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🇺🇸 Gimmangi Name Institute</title>
-  <meta name="description" content="Lucky Fortune and Jami Fortune." />
+  <title>I Ching Fortune · Name Institute</title>
+  <meta name="description" content="Lucky Fortune and Jami Fortune — choose your language." />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;600;700&family=Noto+Sans+JP:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Noto Sans", "Noto Sans KR", "Noto Sans JP", "Noto Sans Devanagari", sans-serif; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background-color: #f8f9fa;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      font-family: "Noto Sans", "Noto Sans KR", "Noto Sans JP", "Noto Sans Devanagari", sans-serif;
+      background: #0b0f19;
+      color: #e5e7eb;
       min-height: 100vh;
-      padding: 20px;
+      padding-bottom: 5rem;
     }
-    .container {
-      width: 100%;
-      max-width: 480px;
-      background: #ffffff;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      padding: 30px 20px;
-      text-align: center;
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 1.5rem;
+      padding: 1.5rem;
+      transition: transform 0.2s;
     }
-    .header h1 {
-      font-size: 22px;
-      font-weight: 700;
-      color: #111;
-      margin-bottom: 8px;
+    .glass-card:hover { transform: translateY(-4px); }
+    .glass-card.jami { border-left: 4px solid #a855f7; }
+    header { padding: 3rem 1rem 2rem; text-align: center; }
+    header h1 { font-size: 1.75rem; font-weight: 800; color: #fff; margin-bottom: 0.5rem; }
+    header p { color: #9ca3af; font-size: 0.95rem; }
+    .langs {
+      max-width: 28rem; margin: 0 auto 2.5rem; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;
     }
-    .header p {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 30px;
-      line-height: 1.4;
+    .lang-btn {
+      padding: 0.5rem 1rem; border-radius: 999px; font-size: 0.875rem; font-weight: 600;
+      border: 1px solid #374151; background: transparent; color: #e5e7eb; cursor: pointer;
+      font-family: inherit; transition: all 0.25s;
     }
-    .card-list { display: flex; flex-direction: column; gap: 16px; }
-    .card {
-      background: #fff;
-      border: 1px solid #eaeaea;
-      border-radius: 12px;
-      padding: 20px;
-      text-align: left;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    .lang-btn:hover, .lang-btn.active {
+      background: #fbbf24; color: #000; border-color: #fbbf24;
     }
-    .card-tag {
-      font-size: 11px;
-      font-weight: 600;
-      color: #007aff;
-      background: #eef5ff;
-      padding: 4px 8px;
-      border-radius: 4px;
-      display: inline-block;
-      margin-bottom: 8px;
+    main { max-width: 28rem; margin: 0 auto; padding: 0 1rem; display: flex; flex-direction: column; gap: 1.5rem; }
+    .row { display: flex; align-items: center; margin-bottom: 1rem; gap: 1rem; }
+    .icon {
+      width: 4rem; height: 4rem; border-radius: 1rem; flex: 0 0 4rem;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; font-weight: 800; color: #111; box-shadow: 0 8px 20px rgba(0,0,0,.35);
     }
-    .card h3 { font-size: 18px; font-weight: 600; color: #222; margin-bottom: 6px; }
-    .card p { font-size: 13px; color: #666; margin-bottom: 15px; line-height: 1.4; }
+    .icon.lucky { background: #eab308; }
+    .icon.jami { background: #9333ea; color: #fff; }
+    .titles h2 { font-size: 1.2rem; font-weight: 700; color: #fff; margin-bottom: 0.2rem; }
+    .titles .sub { font-size: 0.85rem; color: #9ca3af; }
+    .desc { font-size: 0.875rem; color: #9ca3af; line-height: 1.45; margin: 0 0 1rem; }
+    .actions { display: grid; gap: 0.75rem; }
     .btn {
-      display: block;
-      width: 100%;
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 14px;
-      font-weight: 600;
-      text-decoration: none;
+      display: block; text-align: center; padding: 0.85rem 1rem; border-radius: 0.85rem;
+      font-size: 0.9rem; font-weight: 700; text-decoration: none; color: #fff;
+      transition: filter 0.2s, background 0.2s;
     }
-    .footer { margin-top: 30px; font-size: 11px; color: #999; line-height: 1.3; }
-
+    .btn:hover { filter: brightness(1.08); }
+    .btn-lucky { background: #2563eb; }
+    .btn-jami { background: #7c3aed; }
+    .hidden { display: none !important; }
+    footer { margin-top: 3rem; text-align: center; color: #6b7280; font-size: 0.8rem; line-height: 1.4; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <h1><span aria-hidden="true">🇺🇸</span> Gimmangi Name Institute</h1>
-      <p>Lucky Fortune and Jami Fortune.</p>
-    </div>
+  <header>
+    <h1 class="lang-content ko">이름연구소 · 일진</h1>
+    <h1 class="lang-content en hidden">Name Institute · Fortune</h1>
+    <h1 class="lang-content ja hidden">名前研究所 · 日進</h1>
+    <h1 class="lang-content hi hidden">नाम संस्थान · भाग्य</h1>
+    <h1 class="lang-content es hidden">Instituto de Nombres · Fortuna</h1>
+    <p class="lang-content ko">언어를 고르고 오늘의 운세를 보세요.</p>
+    <p class="lang-content en hidden">Select your language and discover your fortune.</p>
+    <p class="lang-content ja hidden">言語を選んで、今日の運勢を見てみましょう。</p>
+    <p class="lang-content hi hidden">अपनी भाषा चुनें और भाग्य देखें।</p>
+    <p class="lang-content es hidden">Elige tu idioma y descubre tu fortuna.</p>
+  </header>
 
-    <div class="card-list">
-      <div class="card">
-        <span class="card-tag">For Youth & Daily Insights</span>
-        <h3>Lucky Fortune (행운역일진)</h3>
-        <p>Check your daily energy, luck, and quick guidance for your day.</p>
-        <a href="https://kmgg5694.github.io/lucky-8/?lang=en" class="btn">Launch Lucky Fortune</a>
-      </div>
-
-      <div class="card">
-        <span class="card-tag">For Life & Deep Analysis</span>
-        <h3>Jami Fortune (자미역일진)</h3>
-        <p>In-depth daily guidance with original and changing hexagrams.</p>
-        <a href="https://kmgg5694.github.io/app_iljin/?lang=en" class="btn">Launch Jami Fortune</a>
-      </div>
-    </div>
-
-    <div class="footer">
-      Based on traditional I Ching systems.<br />© Gimmangi Name Institute.
-    </div>
+  <div class="langs" role="group" aria-label="Language">
+    <button type="button" class="lang-btn" data-lang="ko" onclick="filterLang('ko', this)">한국어</button>
+    <button type="button" class="lang-btn" data-lang="en" onclick="filterLang('en', this)">English</button>
+    <button type="button" class="lang-btn" data-lang="ja" onclick="filterLang('ja', this)">日本語</button>
+    <button type="button" class="lang-btn" data-lang="hi" onclick="filterLang('hi', this)">हिन्दी</button>
+    <button type="button" class="lang-btn" data-lang="es" onclick="filterLang('es', this)">Español</button>
   </div>
+
+  <main>
+    <section class="glass-card">
+      <div class="row">
+        <div class="icon lucky" aria-hidden="true">LF</div>
+        <div class="titles">
+          <h2 class="lang-content ko">행운역일진</h2>
+          <h2 class="lang-content en hidden">Lucky Fortune</h2>
+          <h2 class="lang-content ja hidden">幸運易日進</h2>
+          <h2 class="lang-content hi hidden">लकी फॉर्च्यून</h2>
+          <h2 class="lang-content es hidden">Lucky Fortune</h2>
+          <div class="sub">Daily Fortune</div>
+        </div>
+      </div>
+      <p class="desc lang-content ko">천·지·인으로 오늘의 흐름을 빠르게 보는 일진입니다.</p>
+      <p class="desc lang-content en hidden">Quick daily guidance for energy, luck, and today’s flow.</p>
+      <p class="desc lang-content ja hidden">天・地・人で今日の流れをすばやく見る日進です。</p>
+      <p class="desc lang-content hi hidden">आज की ऊर्जा और भाग्य के लिए त्वरित मार्गदर्शन।</p>
+      <p class="desc lang-content es hidden">Guía diaria rápida de energía, suerte y el flujo de hoy.</p>
+      <div class="actions">
+        <a id="luckyLink" class="btn btn-lucky" href="https://kmgg5694.github.io/lucky-8/?lang=en">
+          <span class="lang-content ko">행운역일진 열기</span>
+          <span class="lang-content en hidden">Open Lucky Fortune</span>
+          <span class="lang-content ja hidden">幸運易日進を開く</span>
+          <span class="lang-content hi hidden">लकी फॉर्च्यून खोलें</span>
+          <span class="lang-content es hidden">Abrir Lucky Fortune</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="glass-card jami">
+      <div class="row">
+        <div class="icon jami" aria-hidden="true">JF</div>
+        <div class="titles">
+          <h2 class="lang-content ko">자미역일진</h2>
+          <h2 class="lang-content en hidden">Jami Fortune</h2>
+          <h2 class="lang-content ja hidden">紫微易日進</h2>
+          <h2 class="lang-content hi hidden">जामी फॉर्च्यून</h2>
+          <h2 class="lang-content es hidden">Jami Fortune</h2>
+          <div class="sub">Deep Daily Reading</div>
+        </div>
+      </div>
+      <p class="desc lang-content ko">본괘·변괘로 하루 기운을 더 깊이 살펴봅니다.</p>
+      <p class="desc lang-content en hidden">Deeper daily reading with original and changing hexagrams.</p>
+      <p class="desc lang-content ja hidden">本卦・変卦で一日の気を深く見ます。</p>
+      <p class="desc lang-content hi hidden">मूल और परिवर्तित हेक्साग्राम से गहरा दैनिक मार्गदर्शन।</p>
+      <p class="desc lang-content es hidden">Lectura diaria profunda con hexagrama original y cambiante.</p>
+      <div class="actions">
+        <a id="jamiLink" class="btn btn-jami" href="https://kmgg5694.github.io/app_iljin/?lang=en">
+          <span class="lang-content ko">자미역일진 열기</span>
+          <span class="lang-content en hidden">Open Jami Fortune</span>
+          <span class="lang-content ja hidden">紫微易日進を開く</span>
+          <span class="lang-content hi hidden">जामी फॉर्च्यून खोलें</span>
+          <span class="lang-content es hidden">Abrir Jami Fortune</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="lang-content ko">주역 일진 · © 김만기 이름연구소</p>
+    <p class="lang-content en hidden">I Ching daily fortune · © Gimmangi Name Institute</p>
+    <p class="lang-content ja hidden">易の日進 · © Gimmangi 名前研究所</p>
+    <p class="lang-content hi hidden">आई चिंग दैनिक · © Gimmangi नाम संस्थान</p>
+    <p class="lang-content es hidden">Fortuna diaria I Ching · © Instituto de Nombres Gimmangi</p>
+  </footer>
+
+  <script>
+    function filterLang(lang, btn) {
+      document.querySelectorAll(".lang-content").forEach(function (el) {
+        el.classList.add("hidden");
+      });
+      document.querySelectorAll(".lang-content." + lang).forEach(function (el) {
+        el.classList.remove("hidden");
+      });
+      document.querySelectorAll(".lang-btn").forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-lang") === lang);
+      });
+      document.documentElement.lang = lang;
+      var lucky = document.getElementById("luckyLink");
+      var jami = document.getElementById("jamiLink");
+      if (lucky) lucky.href = "https://kmgg5694.github.io/lucky-8/?lang=" + lang;
+      if (jami) jami.href = "https://kmgg5694.github.io/app_iljin/?lang=" + lang;
+    }
+    (function init() {
+      var start = "en";
+      var q = new URLSearchParams(location.search).get("lang");
+      if (q && { ko: 1, en: 1, ja: 1, hi: 1, es: 1 }[q]) start = q;
+      var btn = document.querySelector('.lang-btn[data-lang="' + start + '"]');
+      filterLang(start, btn);
+    })();
+  </script>
 </body>
 </html>
