@@ -60,7 +60,30 @@
     .wrap {
       width: min(440px, 100%);
       margin: 0 auto;
-      padding: 28px 16px 40px;
+      padding: 20px 16px 40px;
+    }
+    .lang-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px;
+      margin: 0 0 22px;
+    }
+    .lang-bar a {
+      text-decoration: none;
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: var(--card);
+    }
+    .lang-bar a.on {
+      background: var(--gold-btn);
+      border-color: var(--gold-btn);
+      color: #fff;
     }
     header { text-align: center; margin-bottom: 28px; }
     .taiji {
@@ -432,6 +455,13 @@
 </head>
 <body>
   <div class="wrap">
+    <nav class="lang-bar" aria-label="언어">
+      <a href="/" class="on" aria-current="page">한국어</a>
+      <a href="/en/">English</a>
+      <a href="/jp/">日本語</a>
+      <a href="/es/">Español</a>
+      <a href="/hi/">हिन्दी</a>
+    </nav>
     <header>
       <div class="taiji" aria-hidden="true">☯</div>
       <h1>김만기 주역 성명학 이름연구소</h1>
