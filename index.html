@@ -347,6 +347,70 @@
       font-weight: 700;
       text-decoration: none;
     }
+    .sec-label {
+      text-align: center;
+      font-size: 1.12rem;
+      color: var(--gold-deep);
+      margin: 0 0 6px;
+    }
+    .sec-lead {
+      text-align: center;
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.86rem;
+      color: var(--muted);
+      margin: 0 0 14px;
+    }
+    .today-iljin { margin-bottom: 22px; }
+    .today-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .today-card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+      text-decoration: none;
+      color: inherit;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 12px 12px;
+      box-shadow: 0 2px 10px oklch(0 0 0 / 0.08);
+    }
+    .today-card.lucky { border-color: #7bc4bc; background: linear-gradient(180deg,#f3fbfa,#fff); }
+    .today-card.jami { border-color: #d2b56a; background: linear-gradient(180deg,#fff8ee,#fff); }
+    .today-ico { font-size: 1.35rem; line-height: 1; }
+    .today-title {
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: var(--gold-deep);
+    }
+    .today-desc {
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .share-promo {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .share-btn {
+      flex: 1;
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 700;
+      font-size: 0.82rem;
+      border: none;
+      border-radius: 10px;
+      padding: 11px 8px;
+      cursor: pointer;
+      background: #FEE500;
+      color: #3A1D00;
+    }
+    .share-btn:active { transform: scale(0.98); }
     footer {
       margin-top: 36px;
       text-align: center;
@@ -366,7 +430,30 @@
       <p class="lead">한 인간의 과거, 현재, 미래를 현미경 들여다보듯 명쾌하게 해석합니다.</p>
     </header>
 
-    <section class="cards" aria-label="서비스 바로가기">
+    <section class="today-iljin" aria-label="오늘의 일진">
+      <h2 class="sec-label">오늘의 일진</h2>
+      <p class="sec-lead">지금 바로 오늘의 흐름을 확인해 보세요.</p>
+      <div class="today-row">
+        <a class="today-card lucky" href="https://kmgg5694.github.io/lucky-8/" target="_blank" rel="noopener">
+          <span class="today-ico">🍀</span>
+          <span class="today-title">행운역일진</span>
+          <span class="today-desc">천·지·인으로 보는 하루 운세</span>
+          <span class="chip">30대 이하</span>
+        </a>
+        <a class="today-card jami" href="https://kmgg5694.github.io/app_iljin/" target="_blank" rel="noopener">
+          <span class="today-ico">🔮</span>
+          <span class="today-title">자미역일진</span>
+          <span class="today-desc">본괘·변괘로 보는 중년 일진</span>
+          <span class="chip">50대 이후</span>
+        </a>
+      </div>
+      <div class="share-promo">
+        <button type="button" class="share-btn" id="shareLucky">카카오로 행운역 공유</button>
+        <button type="button" class="share-btn" id="shareJami">카카오로 자미역 공유</button>
+      </div>
+    </section>
+
+    <section class="cards" aria-label="이름풀이 바로가기">
       <article class="card">
         <div class="card-top">
           <div class="icon">📖</div>
@@ -387,30 +474,6 @@
           </div>
         </div>
         <a class="go" href="https://kmgg5694.github.io/nameanalyz/english/" target="_blank" rel="noopener">바로가기</a>
-      </article>
-
-      <article class="card">
-        <div class="card-top">
-          <div class="icon">🍀</div>
-          <div>
-            <h2>행운역일진</h2>
-            <p>오늘의 흐름을 천·지·인으로 짚는 일진 운세입니다.</p>
-            <span class="chip">30대 이하</span>
-          </div>
-        </div>
-        <a class="go" href="https://kmgg5694.github.io/lucky-8/" target="_blank" rel="noopener">바로가기</a>
-      </article>
-
-      <article class="card">
-        <div class="card-top">
-          <div class="icon">🔮</div>
-          <div>
-            <h2>자미역일진</h2>
-            <p>중년 이후의 하루 기운을 본괘·변괘로 살펴봅니다.</p>
-            <span class="chip">50대 이후</span>
-          </div>
-        </div>
-        <a class="go" href="https://kmgg5694.github.io/app_iljin/" target="_blank" rel="noopener">바로가기</a>
       </article>
     </section>
 
@@ -664,6 +727,32 @@
           allBtn.disabled = false;
         });
       });
+
+      function copyInvite(url, title) {
+        var text = title + "\n오늘 컨디션이 궁금하면 눌러 보세요.\n" + url;
+        function ok() {
+          alert("공유 문구가 복사되었습니다.\n카카오톡을 열고 붙여넣기 해 주세요.");
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(ok).catch(function () {
+            prompt("아래 문구를 복사해 카카오톡에 붙여넣으세요:", text);
+          });
+        } else {
+          prompt("아래 문구를 복사해 카카오톡에 붙여넣으세요:", text);
+        }
+        if (navigator.share) {
+          navigator.share({ title: title, text: text, url: url }).catch(function () {});
+        }
+      }
+      var sl = document.getElementById("shareLucky");
+      var sj = document.getElementById("shareJami");
+      if (sl) sl.addEventListener("click", function () {
+        copyInvite("https://kmgg5694.github.io/lucky-8/", "🍀 행운역일진 · 김만기 이름연구소");
+      });
+      if (sj) sj.addEventListener("click", function () {
+        copyInvite("https://kmgg5694.github.io/app_iljin/", "🔮 자미역일진 · 김만기 이름연구소");
+      });
+
     })();
   </script>
 </body>
