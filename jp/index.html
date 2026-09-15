@@ -189,9 +189,16 @@
       margin:0 0 12px; font-family:"Noto Sans KR",sans-serif;
       font-size:13px; line-height:1.55; color:#5A4A3A;
     }
-    .manus-promo-player{ border-radius:12px; overflow:hidden; background:#111; }
+    .manus-promo-player{ position:relative; border-radius:12px; overflow:hidden; background:#111; }
     .manus-promo-player video{
       display:block; width:100%; height:auto; background:#000; vertical-align:top;
+    }
+    .manus-stop{
+      position:absolute; right:10px; bottom:10px; z-index:5;
+      border:0; border-radius:999px; padding:10px 16px;
+      background:#8C2D19; color:#FFFDF9;
+      font-family:"Noto Sans KR",sans-serif; font-size:13px; font-weight:700;
+      box-shadow:0 2px 8px rgba(0,0,0,.35); cursor:pointer;
     }
     .manus-promo .mp-block{
       margin:12px 14px; padding:14px;
@@ -274,11 +281,32 @@
         <h2 class="manus-promo-h">당신의 이름! <em>안녕하십니까?</em></h2>
         <p class="manus-promo-desc">한 인간의 과거, 현재, 미래를 현미경 들여다보듯 명쾌하게 해석합니다. 음령오행(한글) 2개와 자원오행(한문) 2개, 총 4개 기운의 상생을 확인해 보세요.</p>
         <p class="mp-quote">“30초 한글·한문 이름풀이부터 4대 기운의 상생, 세대별 오늘의 일진까지. 50초 전체 소개를 들어보세요.”</p>
-        <div class="manus-promo-player">
-          <video playsinline muted autoplay controls preload="auto"
+                <div class="manus-promo-player">
+          <video id="hubManusVideo" playsinline autoplay preload="auto"
             src="/videos/video_final_intro_dubbed_ass.mp4"></video>
+          <button type="button" class="manus-stop" id="hubManusStop" aria-label="정지">정지</button>
         </div>
-      </div>
+        <script>
+        (function(){
+          var v=document.getElementById('hubManusVideo');
+          var b=document.getElementById('hubManusStop');
+          if(!v||!b) return;
+          function go(){
+            v.muted=false;
+            var p=v.play();
+            if(p&&p.catch)p.catch(function(){});
+          }
+          go();
+          v.addEventListener('loadeddata', go);
+          v.addEventListener('canplay', go);
+          document.addEventListener('visibilitychange', function(){ if(!document.hidden) go(); });
+          b.addEventListener('click', function(){
+            v.pause();
+            v.currentTime=0;
+          });
+        })();
+        </script>
+</div>
 
       <div class="mp-block">
         <h3>무료 이름풀이 모의 체험</h3>
