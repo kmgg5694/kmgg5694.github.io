@@ -193,6 +193,60 @@
     .manus-promo-player video{
       display:block; width:100%; height:auto; background:#000; vertical-align:top;
     }
+    .manus-promo .mp-block{
+      margin:12px 14px; padding:14px;
+      background:#FFFDF9; border:1px solid rgba(43,33,24,.1);
+      border-radius:14px;
+    }
+    .manus-promo .mp-block h3{
+      margin:0 0 8px; font-size:1.05rem; font-weight:700; color:#2B2118;
+    }
+    .manus-promo .mp-block p, .manus-promo .mp-block li{
+      font-family:"Noto Sans KR",sans-serif; font-size:13px; line-height:1.55; color:#5A4A3A;
+    }
+    .manus-promo .mp-block p{ margin:0 0 8px; }
+    .manus-promo .mp-label{
+      display:block; margin:10px 0 4px; font-family:"Noto Sans KR",sans-serif;
+      font-size:12px; font-weight:700; color:#2B2118;
+    }
+    .manus-promo .mp-input{
+      width:100%; box-sizing:border-box; padding:10px 12px;
+      border:1px solid rgba(43,33,24,.18); border-radius:10px;
+      background:#F7F1E6; font-size:14px; font-family:inherit;
+    }
+    .manus-promo .mp-grid2{
+      display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:10px 0;
+    }
+    .manus-promo .mp-slot{
+      border:1px dashed #C9A06A; border-radius:10px; padding:12px 8px;
+      text-align:center; font-family:"Noto Sans KR",sans-serif;
+      font-size:12px; color:#5A4A3A; background:#F7F1E6;
+    }
+    .manus-promo .mp-btn{
+      display:block; width:100%; box-sizing:border-box; margin-top:10px;
+      text-align:center; text-decoration:none;
+      padding:12px 14px; border-radius:10px;
+      background:#8C2D19; color:#FFFDF9; font-weight:700; font-size:14px;
+      font-family:"Noto Sans KR",sans-serif;
+    }
+    .manus-promo .mp-btn.ghost{
+      background:#FFFDF9; color:#8C2D19; border:1px solid #8C2D19;
+    }
+    .manus-promo .mp-steps{ list-style:none; margin:0; padding:0; }
+    .manus-promo .mp-steps li{
+      display:flex; gap:10px; margin:0 0 12px; align-items:flex-start;
+    }
+    .manus-promo .mp-num{
+      flex:0 0 auto; width:28px; height:28px; border-radius:50%;
+      background:#8C2D19; color:#FFFDF9; display:flex; align-items:center; justify-content:center;
+      font-size:12px; font-weight:700;
+    }
+    .manus-promo .mp-quote{
+      margin:0 0 12px; padding:10px 12px; border-radius:10px;
+      background:#2B2118; color:#E3C4A1;
+      font-family:"Noto Sans KR",sans-serif; font-size:12px; line-height:1.5;
+    }
+
 
   </style>
 </head>
@@ -207,7 +261,7 @@
       <a href="/hi/" data-lang="hi">हिन्दी</a>
     </nav>
 
-    <section class="manus-promo" aria-label="소개 홍보영상">
+        <section class="manus-promo" aria-label="소개 홍보영상">
       <div class="manus-promo-top">
         <span class="manus-promo-tg" aria-hidden="true">☯</span>
         <div>
@@ -219,14 +273,65 @@
         <span class="manus-promo-badge">30초 무료 이름풀이</span>
         <h2 class="manus-promo-h">당신의 이름! <em>안녕하십니까?</em></h2>
         <p class="manus-promo-desc">한 인간의 과거, 현재, 미래를 현미경 들여다보듯 명쾌하게 해석합니다. 음령오행(한글) 2개와 자원오행(한문) 2개, 총 4개 기운의 상생을 확인해 보세요.</p>
+        <p class="mp-quote">“30초 한글·한문 이름풀이부터 4대 기운의 상생, 세대별 오늘의 일진까지. 50초 전체 소개를 들어보세요.”</p>
         <div class="manus-promo-player">
           <video playsinline muted autoplay controls preload="auto"
             src="/videos/video_final_intro_dubbed_ass.mp4"></video>
         </div>
       </div>
+
+      <div class="mp-block">
+        <h3>무료 이름풀이 모의 체험</h3>
+        <p>1. 탄생일 · 2. 한글 이름 · 3. 한문 이름 찾기</p>
+        <label class="mp-label">1. 탄생일</label>
+        <input class="mp-input" type="date" value="1988-06-15" />
+        <label class="mp-label">2. 한글 이름</label>
+        <input class="mp-input" type="text" value="김만기" placeholder="예: 홍길동" />
+        <label class="mp-label">3. 한문 이름 찾기</label>
+        <p>정확한 자원오행 확인을 위해 공식 사이트에서 한문 이름을 먼저 찾아 주세요.</p>
+        <div class="mp-grid2">
+          <div class="mp-slot">음령오행<br>한글 ①</div>
+          <div class="mp-slot">음령오행<br>한글 ②</div>
+          <div class="mp-slot">자원오행<br>한문 ①</div>
+          <div class="mp-slot">자원오행<br>한문 ②</div>
+        </div>
+        <p>음령오행(한글) 2개와 자원오행(한문) 2개 중 최소 3개 이상이 서로 상생해야 복을 받습니다. 실제 기운은 한글 이름과 선택한 한문을 기준으로 정밀 산출됩니다.</p>
+        <a class="mp-btn" href="https://kmgg5694.github.io/nameanalyz/" target="_blank" rel="noopener">이름풀이 시작</a>
+      </div>
+
+      <div class="mp-block">
+        <h3>주역 성명학 핵심 포인트</h3>
+        <p><strong>한글과 한문, 총 4개의 기운</strong><br>이름에는 한글에서 보는 음령오행 2개와 한문에서 보는 자원오행 2개, 총 4개의 기운이 있습니다.</p>
+        <p><strong>복을 부르는 균형</strong><br>4개의 기운 중 최소 3개 이상이 서로 상생해야 복을 받습니다. 이름 확인 시 꼭 비교해 보세요.</p>
+        <p><strong>행운역 &amp; 자미역</strong><br>30대 이하는 천·지·인 행운역일진, 50대 이후는 자미역일진으로 오전·오후 흐름까지 파악합니다.</p>
+      </div>
+
+      <div class="mp-block">
+        <h3>30초 만에 확인하는 3단계</h3>
+        <ol class="mp-steps">
+          <li><span class="mp-num">1</span><div><strong>탄생일 입력하기</strong><br>양력 또는 음력 탄생일을 입력해 이름풀이의 기본 기준을 준비합니다.</div></li>
+          <li><span class="mp-num">2</span><div><strong>한글 이름 입력하기</strong><br>풀이받을 한글 이름을 정확히 입력합니다.</div></li>
+          <li><span class="mp-num">3</span><div><strong>한문 이름 찾기</strong><br>한문 이름을 찾은 뒤 이름풀이 시작 버튼을 누르면 전체 풀이가 바로 펼쳐집니다.</div></li>
+        </ol>
+      </div>
+
+      <div class="mp-block">
+        <h3>오늘의 일진 함께 보기</h3>
+        <p><strong>행운역일진</strong> · 30대 이하 추천<br>천·지·인으로 보는 오전·오후 하루 운세 흐름</p>
+        <a class="mp-btn ghost" href="https://kmgg5694.github.io/lucky-8/" target="_blank" rel="noopener">행운역일진 바로가기</a>
+        <p style="margin-top:12px"><strong>자미역일진</strong> · 50대 이후 추천<br>본괘·변괘로 깊이 있게 보는 중년 맞춤 일진</p>
+        <a class="mp-btn ghost" href="https://kmgg5694.github.io/app_iljin/" target="_blank" rel="noopener">자미역일진 바로가기</a>
+      </div>
+
+      <div class="mp-block" style="margin-bottom:14px">
+        <h3>다국어 &amp; 모바일 최적화</h3>
+        <p>한국어는 물론 영어 이름풀이(English Name Analysis)와 다국어 안내를 제공하며, 아이폰·안드로이드 어디서든 앱처럼 홈 화면에 추가해 사용할 수 있습니다.</p>
+        <p>질문 및 상담 문의: 인스타그램 <a href="https://www.instagram.com/gimmangi246/" target="_blank" rel="noopener">@gimmangi246</a> · 운영: 풍백테크 · 김만기 주역 성명학 체계 기반</p>
+        <a class="mp-btn" href="https://kmgg5694.github.io/nameanalyz/" target="_blank" rel="noopener">지금 30초 무료 이름풀이 시작하기</a>
+      </div>
     </section>
 
-    <header>
+<header>
       <div class="taiji" aria-hidden="true">☯</div>
       <h1>Instituto de Nombres Gimmangi</h1>
       <p class="lead">Lecturas claras del flujo diario con el sistema I Ching.</p>
