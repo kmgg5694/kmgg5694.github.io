@@ -147,6 +147,53 @@
     footer strong { color: var(--gold); font-weight: 600; }
     .op { margin-top: 8px; font-size: 0.68rem; opacity: 0.85; }
 
+  
+    /* Manus promo under language bar (hub 태극 zone) — full video, not cropped */
+    .manus-promo{
+      margin:0 0 22px;
+      background:#F7F1E6;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:0 2px 10px oklch(0 0 0 / 0.08);
+    }
+    .manus-promo-top{
+      display:flex; align-items:center; gap:10px;
+      padding:12px 14px;
+      background:rgba(255,253,249,.95);
+      border-bottom:1px solid rgba(43,33,24,.1);
+    }
+    .manus-promo-tg{
+      width:36px; height:36px; border-radius:50%; flex:0 0 auto;
+      display:flex; align-items:center; justify-content:center;
+      background:#5B2C8A; color:#fff; font-size:22px; line-height:1;
+    }
+    .manus-promo-kicker{
+      margin:0; font-family:"Noto Sans KR",sans-serif;
+      font-size:11px; font-weight:600; color:#8C2D19;
+    }
+    .manus-promo-title{
+      margin:2px 0 0; font-size:14px; font-weight:700; line-height:1.3; color:#2B2118;
+    }
+    .manus-promo-card{ padding:14px; }
+    .manus-promo-badge{
+      display:inline-block; margin:0 0 10px; padding:5px 10px; border-radius:999px;
+      background:#8C2D19; color:#FFFDF9;
+      font-family:"Noto Sans KR",sans-serif; font-size:11px; font-weight:700;
+    }
+    .manus-promo-h{
+      margin:0 0 8px; font-size:1.4rem; font-weight:700; line-height:1.35; color:#2B2118;
+    }
+    .manus-promo-h em{ font-style:normal; color:#8C2D19; }
+    .manus-promo-desc{
+      margin:0 0 12px; font-family:"Noto Sans KR",sans-serif;
+      font-size:13px; line-height:1.55; color:#5A4A3A;
+    }
+    .manus-promo-player{ border-radius:12px; overflow:hidden; background:#111; }
+    .manus-promo-player video{
+      display:block; width:100%; height:auto; background:#000; vertical-align:top;
+    }
+
   </style>
 </head>
 <body>
@@ -159,6 +206,25 @@
       <a href="/es/" data-lang="es">Español</a>
       <a href="/hi/" data-lang="hi">हिन्दी</a>
     </nav>
+
+    <section class="manus-promo" aria-label="소개 홍보영상">
+      <div class="manus-promo-top">
+        <span class="manus-promo-tg" aria-hidden="true">☯</span>
+        <div>
+          <p class="manus-promo-kicker">주역 성명학 20년 노하우</p>
+          <p class="manus-promo-title">김만기 주역 성명학 이름연구소</p>
+        </div>
+      </div>
+      <div class="manus-promo-card">
+        <span class="manus-promo-badge">30초 무료 이름풀이</span>
+        <h2 class="manus-promo-h">당신의 이름! <em>안녕하십니까?</em></h2>
+        <p class="manus-promo-desc">한 인간의 과거, 현재, 미래를 현미경 들여다보듯 명쾌하게 해석합니다. 음령오행(한글) 2개와 자원오행(한문) 2개, 총 4개 기운의 상생을 확인해 보세요.</p>
+        <div class="manus-promo-player">
+          <video playsinline muted autoplay controls preload="auto"
+            src="/videos/video_final_intro_dubbed_ass.mp4"></video>
+        </div>
+      </div>
+    </section>
 
     <header>
       <div class="taiji" aria-hidden="true">☯</div>
