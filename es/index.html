@@ -193,7 +193,7 @@
     .manus-promo-player video{
       display:block; width:100%; height:auto; background:#000; vertical-align:top;
     }
-    .manus-stop{
+    .manus-mute-btn{
       position:absolute; right:10px; bottom:10px; z-index:5;
       border:0; border-radius:999px; padding:10px 16px;
       background:#8C2D19; color:#FFFDF9;
@@ -282,28 +282,34 @@
         <p class="manus-promo-desc">한 인간의 과거, 현재, 미래를 현미경 들여다보듯 명쾌하게 해석합니다. 음령오행(한글) 2개와 자원오행(한문) 2개, 총 4개 기운의 상생을 확인해 보세요.</p>
         <p class="mp-quote">“30초 한글·한문 이름풀이부터 4대 기운의 상생, 세대별 오늘의 일진까지. 50초 전체 소개를 들어보세요.”</p>
                 <div class="manus-promo-player">
-          <video id="hubManusVideo" playsinline autoplay preload="auto"
+          <video id="hubManusVideo" playsinline autoplay muted preload="auto"
             src="/videos/video_final_intro_dubbed_ass.mp4"></video>
-          <button type="button" class="manus-stop" id="hubManusStop" aria-label="정지">정지</button>
+          <button type="button" class="manus-mute-btn" id="hubManusMute" aria-label="소리 켜기">소리 켜기</button>
         </div>
         <script>
         (function(){
           var v=document.getElementById('hubManusVideo');
-          var b=document.getElementById('hubManusStop');
+          var b=document.getElementById('hubManusMute');
           if(!v||!b) return;
-          function go(){
-            v.muted=false;
+          v.muted=true;
+          function syncBtn(){
+            var on=!v.muted;
+            b.textContent=on?'소리 끄기':'소리 켜기';
+            b.setAttribute('aria-label', on?'소리 끄기':'소리 켜기');
+          }
+          function tryPlay(){
             var p=v.play();
             if(p&&p.catch)p.catch(function(){});
           }
-          go();
-          v.addEventListener('loadeddata', go);
-          v.addEventListener('canplay', go);
-          document.addEventListener('visibilitychange', function(){ if(!document.hidden) go(); });
+          tryPlay();
+          v.addEventListener('loadeddata', tryPlay, {once:true});
+          syncBtn();
           b.addEventListener('click', function(){
-            v.pause();
-            v.currentTime=0;
+            v.muted=!v.muted;
+            if(!v.muted) tryPlay();
+            syncBtn();
           });
+          v.addEventListener('volumechange', syncBtn);
         })();
         </script>
 </div>
