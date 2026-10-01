@@ -956,15 +956,17 @@
         function ok() {
           alert("공유 문구가 복사되었습니다.\n카카오톡을 열고 붙여넣기 해 주세요.");
         }
+        /* 공유창이 있으면 공유창만 띄운다 (알림창과 겹치지 않게) */
+        if (navigator.share) {
+          navigator.share({ title: title, text: text }).catch(function () {});
+          return;
+        }
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(text).then(ok).catch(function () {
             prompt("아래 문구를 복사해 카카오톡에 붙여넣으세요:", text);
           });
         } else {
           prompt("아래 문구를 복사해 카카오톡에 붙여넣으세요:", text);
-        }
-        if (navigator.share) {
-          navigator.share({ title: title, text: text, url: url }).catch(function () {});
         }
       }
       var sl = document.getElementById("shareLucky");
