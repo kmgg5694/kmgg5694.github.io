@@ -280,38 +280,7 @@
         <span class="manus-promo-badge">Free name reading in 30 seconds</span>
         <h2 class="manus-promo-h">Your name! <em>Hello.</em></h2>
         <p class="manus-promo-desc">See a life’s past, present, and future with unusual clarity. Check how the four forces in a name work together.</p>
-        <p class="mp-quote">“From a 30-second name reading to those four forces, and today’s fortune by generation. Listen to the 50-second introduction.”</p>
-                <div class="manus-promo-player">
-          <video id="hubManusVideo" playsinline autoplay muted preload="auto"
-            src="/videos/video_final_intro_dubbed_ass.mp4"></video>
-          <button type="button" class="manus-mute-btn" id="hubManusMute" aria-label="Turn sound on">Turn sound on</button>
-        </div>
-        <script>
-        (function(){
-          var v=document.getElementById('hubManusVideo');
-          var b=document.getElementById('hubManusMute');
-          if(!v||!b) return;
-          v.muted=true;
-          function syncBtn(){
-            var on=!v.muted;
-            b.textContent=on?'Turn sound off':'Turn sound on';
-            b.setAttribute('aria-label', on?'Turn sound off':'Turn sound on');
-          }
-          function tryPlay(){
-            var p=v.play();
-            if(p&&p.catch)p.catch(function(){});
-          }
-          tryPlay();
-          v.addEventListener('loadeddata', tryPlay, {once:true});
-          syncBtn();
-          b.addEventListener('click', function(){
-            v.muted=!v.muted;
-            if(!v.muted) tryPlay();
-            syncBtn();
-          });
-          v.addEventListener('volumechange', syncBtn);
-        })();
-        </script>
+        <p class="mp-quote">“From a 30-second name reading to those four forces, and today’s fortune by generation.”</p>
 </div>
 
       </section>

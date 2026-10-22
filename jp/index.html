@@ -280,38 +280,7 @@
         <span class="manus-promo-badge">30秒の無料名前占い</span>
         <h2 class="manus-promo-h">あなたの名前！<em>こんにちは</em></h2>
         <p class="manus-promo-desc">一人の過去・現在・未来を、顕微鏡で見るように読み解きます。名前に宿る四つの気の巡りを確かめてみてください。</p>
-        <p class="mp-quote">「30秒の名前占いから、四つの気の巡り、世代ごとの今日の運勢まで。50秒の紹介をお聞きください。」</p>
-                <div class="manus-promo-player">
-          <video id="hubManusVideo" playsinline autoplay muted preload="auto"
-            src="/videos/video_final_intro_dubbed_ass.mp4"></video>
-          <button type="button" class="manus-mute-btn" id="hubManusMute" aria-label="音声をオン">音声をオン</button>
-        </div>
-        <script>
-        (function(){
-          var v=document.getElementById('hubManusVideo');
-          var b=document.getElementById('hubManusMute');
-          if(!v||!b) return;
-          v.muted=true;
-          function syncBtn(){
-            var on=!v.muted;
-            b.textContent=on?'音声をオフ':'音声をオン';
-            b.setAttribute('aria-label', on?'音声をオフ':'音声をオン');
-          }
-          function tryPlay(){
-            var p=v.play();
-            if(p&&p.catch)p.catch(function(){});
-          }
-          tryPlay();
-          v.addEventListener('loadeddata', tryPlay, {once:true});
-          syncBtn();
-          b.addEventListener('click', function(){
-            v.muted=!v.muted;
-            if(!v.muted) tryPlay();
-            syncBtn();
-          });
-          v.addEventListener('volumechange', syncBtn);
-        })();
-        </script>
+        <p class="mp-quote">「30秒の名前占いから、四つの気の巡り、世代ごとの今日の運勢まで。」</p>
 </div>
 
       </section>

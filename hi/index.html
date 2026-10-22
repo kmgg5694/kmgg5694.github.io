@@ -280,38 +280,7 @@
         <span class="manus-promo-badge">30 सेकंड में मुफ़्त नाम विश्लेषण</span>
         <h2 class="manus-promo-h">आपका नाम! <em>नमस्कार</em></h2>
         <p class="manus-promo-desc">किसी व्यक्ति के भूत, वर्तमान और भविष्य को साफ-साफ पढ़ते हैं। नाम की चार शक्तियों का मेल देखें।</p>
-        <p class="mp-quote">“30 सेकंड के नाम विश्लेषण से लेकर चार शक्तियों और पीढ़ी के अनुसार आज का भाग्य। 50 सेकंड का परिचय सुनें।”</p>
-                <div class="manus-promo-player">
-          <video id="hubManusVideo" playsinline autoplay muted preload="auto"
-            src="/videos/video_final_intro_dubbed_ass.mp4"></video>
-          <button type="button" class="manus-mute-btn" id="hubManusMute" aria-label="आवाज़ चालू करें">आवाज़ चालू करें</button>
-        </div>
-        <script>
-        (function(){
-          var v=document.getElementById('hubManusVideo');
-          var b=document.getElementById('hubManusMute');
-          if(!v||!b) return;
-          v.muted=true;
-          function syncBtn(){
-            var on=!v.muted;
-            b.textContent=on?'आवाज़ बंद करें':'आवाज़ चालू करें';
-            b.setAttribute('aria-label', on?'आवाज़ बंद करें':'आवाज़ चालू करें');
-          }
-          function tryPlay(){
-            var p=v.play();
-            if(p&&p.catch)p.catch(function(){});
-          }
-          tryPlay();
-          v.addEventListener('loadeddata', tryPlay, {once:true});
-          syncBtn();
-          b.addEventListener('click', function(){
-            v.muted=!v.muted;
-            if(!v.muted) tryPlay();
-            syncBtn();
-          });
-          v.addEventListener('volumechange', syncBtn);
-        })();
-        </script>
+        <p class="mp-quote">“30 सेकंड के नाम विश्लेषण से लेकर चार शक्तियों और पीढ़ी के अनुसार आज का भाग्य।”</p>
 </div>
 
       </section>

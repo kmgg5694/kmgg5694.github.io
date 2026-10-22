@@ -280,38 +280,7 @@
         <span class="manus-promo-badge">Lectura de nombre gratis en 30 segundos</span>
         <h2 class="manus-promo-h">¡Tu nombre! <em>¿Qué tal?</em></h2>
         <p class="manus-promo-desc">Leemos el pasado, el presente y el futuro de una persona con claridad. Mira cómo se relacionan las cuatro fuerzas de un nombre.</p>
-        <p class="mp-quote">“De la lectura en 30 segundos a esas cuatro fuerzas y la fortuna de hoy por generaciones. Escucha la presentación de 50 segundos.”</p>
-                <div class="manus-promo-player">
-          <video id="hubManusVideo" playsinline autoplay muted preload="auto"
-            src="/videos/video_final_intro_dubbed_ass.mp4"></video>
-          <button type="button" class="manus-mute-btn" id="hubManusMute" aria-label="Activar sonido">Activar sonido</button>
-        </div>
-        <script>
-        (function(){
-          var v=document.getElementById('hubManusVideo');
-          var b=document.getElementById('hubManusMute');
-          if(!v||!b) return;
-          v.muted=true;
-          function syncBtn(){
-            var on=!v.muted;
-            b.textContent=on?'Silenciar':'Activar sonido';
-            b.setAttribute('aria-label', on?'Silenciar':'Activar sonido');
-          }
-          function tryPlay(){
-            var p=v.play();
-            if(p&&p.catch)p.catch(function(){});
-          }
-          tryPlay();
-          v.addEventListener('loadeddata', tryPlay, {once:true});
-          syncBtn();
-          b.addEventListener('click', function(){
-            v.muted=!v.muted;
-            if(!v.muted) tryPlay();
-            syncBtn();
-          });
-          v.addEventListener('volumechange', syncBtn);
-        })();
-        </script>
+        <p class="mp-quote">“De la lectura en 30 segundos a esas cuatro fuerzas y la fortuna de hoy por generaciones.”</p>
 </div>
 
       </section>
